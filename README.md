@@ -11,7 +11,7 @@ Our platform leverages advanced technology to facilitate seamless appointment ma
 
 ![Slotin](Assets/Slotin.png)
 
-### 🔍 Key Features of Suraksha
+### 🔍 Key Features of Slotin
 - **User-Friendly Interface:** Enjoy an intuitive interface that makes scheduling appointments easy for all users.
 - **Real-Time Availability:** View real-time availability of service providers to book appointments instantly.
 - **Automated Reminders:** Receive automated reminders and notifications to reduce no-shows and keep clients informed.
@@ -39,7 +39,7 @@ Explore our features and see how Slotin can support your efforts in booking and 
 
 Slotin’s frontend is designed to ensure a user-friendly experience across both our mobile application and web interface. Whether it’s booking appointments, tracking confirmations, or managing user preferences, the frontend is built with modern technologies to provide seamless interaction and real-time responsiveness for all users.
 
-Here's an overview of the key components and features of Suraksha's frontend:
+Here's an overview of the key components and features of slotin's frontend:
 
 ![Web Interface Dashboard](Assets/Dashboard.jpg)
 
