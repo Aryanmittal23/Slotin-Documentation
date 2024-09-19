@@ -126,7 +126,7 @@ Here's an overview of the key components and features of Slotin's backend:
 
 # 🧠 Machine Learning - Slotin
 
-![Slotin ML Models](Assets/Suraksha.jpg)
+![Slotin ML Models](Assets/ml.png)
 
 ## 🚀 Overview of Machine Learning Models in Slotin
 
