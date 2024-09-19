@@ -9,7 +9,7 @@
 
 Our platform leverages advanced technology to facilitate seamless appointment management, offering features that enhance convenience and efficiency. Here’s how Slotin can transform appointment booking:
 
-![Slotin](Assets/Suraksha.png)
+![Slotin](Assets/Slotin.png)
 
 ### 🔍 Key Features of Suraksha
 - **User-Friendly Interface:** Enjoy an intuitive interface that makes scheduling appointments easy for all users.
