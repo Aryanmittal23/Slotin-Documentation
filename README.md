@@ -2,7 +2,7 @@
 
 ## Official Documentation for Slotin - The Appointment Booking Platform
 
-Streamlit Docs(https://suraksha-docs.streamlit.app/)
+
 
 ## 🚀 Welcome to Slotin!
 **Slotin** is an innovative platform designed to streamline the appointment booking process across various sectors. Whether it’s for healthcare, beauty services, or business consultations, Slotin addresses the challenges of managing appointments effectively. With millions of appointments booked daily, our platform aims to enhance user experience by simplifying the scheduling process for both providers and clients.
