@@ -9,7 +9,7 @@
 
 Our platform leverages advanced technology to facilitate seamless appointment management, offering features that enhance convenience and efficiency. Here’s how Slotin can transform appointment booking:
 
-![Slotin](Assets/Slotin.png)
+<!--[Slotin](Assets/Slotin.png)-->
 
 ### 🔍 Key Features of Slotin
 - **User-Friendly Interface:** Enjoy an intuitive interface that makes scheduling appointments easy for all users.
@@ -35,13 +35,13 @@ Explore our features and see how Slotin can support your efforts in booking and 
 
 # 🚀 Frontend - Slotin
 
-![Web Interface Login/Signup](Assets/Login.jpg)
+<!--[Web Interface Login/Signup](Assets/Login.jpg)-->
 
 Slotin’s frontend is designed to ensure a user-friendly experience across both our mobile application and web interface. Whether it’s booking appointments, tracking confirmations, or managing user preferences, the frontend is built with modern technologies to provide seamless interaction and real-time responsiveness for all users.
 
 Here's an overview of the key components and features of slotin's frontend:
 
-![Web Interface Dashboard](Assets/Dashboard.jpg)
+<!--[Web Interface Dashboard](Assets/Dashboard.jpg)-->
 
 ## 🔧 Key Components of Slotin's Frontend
 
@@ -54,7 +54,7 @@ Here's an overview of the key components and features of slotin's frontend:
 
 4. **User Dashboard:** The web interface includes a dedicated dashboard for users to view their booking history, upcoming appointments, and cancellation options. This feature provides a comprehensive overview of their scheduling activities.
 
-![Web Interface Newsfeed](Assets/News1.jpg)
+<!--[Web Interface Newsfeed](Assets/News1.jpg)-->
 
 5. **Real-Time Notifications:** Every user receives real-time notifications regarding their appointments, including reminders and updates from service providers. This feature enhances communication and helps reduce no-shows.
 
@@ -65,7 +65,7 @@ Here's an overview of the key components and features of slotin's frontend:
 8. **Privacy Controls for User Information:** To protect user privacy, personal information is securely managed, and sensitive data is only shared with service providers when necessary. Users can feel confident in their data security while using the platform.
 
 
-![Mobile App Newsfeed](Assets/Mob.jpg)
+<!--[Mobile App Newsfeed](Assets/Mob.jpg)-->
 
 ## 🚀 Technologies Used in Slotin's Frontend
 
@@ -79,13 +79,13 @@ Here's an overview of the key components and features of slotin's frontend:
 4. **TypeScript:** TypeScript is the primary programming language used in Slotin’s frontend, providing type safety and improving code maintainability. This leads to fewer errors and increased development efficiency.
 # 🚀 Backend - Slotin
 
-![Upload Image](Assets/Upload.jpg)
+<!--[Upload Image](Assets/Upload.jpg)-->
 
 Slotin's backend is the backbone of our platform, powering the essential functionality that enables seamless appointment booking, user management, and real-time notifications. Designed to handle a variety of tasks, our backend processes user requests, manages data, and integrates with external services to enhance user experience.
 
 Here's an overview of the key components and features of Slotin's backend:
 
-![Backend Architecture Workflow](Assets/Arch.jpg)
+<!--[Backend Architecture Workflow](Assets/Arch.jpg)-->
 
 ## 🔧 Key Components of Slotin's Backend
 
@@ -126,7 +126,7 @@ Here's an overview of the key components and features of Slotin's backend:
 
 # 🧠 Machine Learning - Slotin
 
-![Slotin ML Models](Assets/ml.png)
+<!--[Slotin ML Models](Assets/ml.png)-->
 
 ## 🚀 Overview of Machine Learning Models in Slotin
 
