@@ -165,7 +165,7 @@ def competition_and_roadmap():
 
     #### **3. Acuity Scheduling ⏰**
     - **What They Do:** Acuity Scheduling offers robust features for managing appointments, including reminders and client self-scheduling.
-    - **Edge Over Them:** While Acuity provides strong appointment management, Slotin emphasizes ease of use with a more intuitive interface, ensuring that both service providers and clients can navigate the platform effortlessly.
+    - **Edge Over Them:** While Acuity provides strong appointment management, Slotin emphasizes ease of use with a more intuitive interface, ensuring that both service providers and clients can navigate the platform effortlessly .
 
     #### **4. Booksy 💼**
     - **What They Do:** Booksy is a booking platform primarily for beauty and wellness services, allowing users to find and book appointments with professionals.
