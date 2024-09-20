@@ -1,7 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from streamlit_agraph import agraph, Node, Edge, Config
-import streamlit_lottie
+from streamlit_lottie import st_lottie
 import json
 
 def load_lottie_file(file_path):
@@ -10,7 +9,7 @@ def load_lottie_file(file_path):
 
 def machine_learning():
     st.title("🧠 Machine Learning - Slotin")
-    st.image("Assets/Slotin.jpg", caption="Slotin ML Models", use_column_width=True)
+    #st.image("Assets/Slotin.jpg", caption="Slotin ML Models", use_column_width=True)
 
     st.subheader("🚀 Overview of Machine Learning Models in Slotin")
     st.write("""
@@ -22,7 +21,7 @@ def machine_learning():
         2. **Natural Language Processing (NLP) Model:** Utilizing NLP techniques, this model analyzes user queries and feedback, providing insights and improving communication between users and service providers.
     """)
     
-    st.image("Assets/YoloV9.jpeg", caption="Model 1: YOLOv9", use_column_width=True)
+    #st.image("Assets/YoloV9.jpeg", caption="Model 1: YOLOv9", use_column_width=True)
     st.subheader("🔍 How the Appointment Classification Model Works")
     st.write("""
         Our classification model is designed to enhance the booking process. Here’s a breakdown of its core features and functionality:
@@ -87,7 +86,7 @@ def home():
         Our platform leverages advanced technology to facilitate seamless appointment management, offering features that enhance convenience and efficiency. Here’s how Slotin can transform appointment booking:
     """)
 
-    st.image("Assets/Slotin.png", caption="Slotin", use_column_width=True)
+    #st.image("Assets/Slotin.png", caption="Slotin", use_column_width=True)
 
     st.subheader("🔍 Key Features of Slotin")
     st.write("""
@@ -174,9 +173,7 @@ def competition_and_roadmap():
 
     #### **5. SimplyBook.me 🗓️**
     - **What They Do:** SimplyBook.me offers customizable booking solutions for businesses, with features like payment processing and reminders.
-    - **Edge Over Them:** While SimplyBook.me is highly customizable, Slotin focuses on delivering a simpler, user-friendly experience without overwhelming users with complex settings, making appointment booking quick and hassle-free.
-
-Here's a revised version of the **Roadmap** and **Get Involved** sections for **Slotin**:
+    - **Edge Over Them:** While SimplyBook.me is highly customizable, Slotin focuses on delivering a simpler, user-friendly experience without overwhelming users with complex settings, making appointment booking quick and hassle-free.""")
 
     st.subheader("🗺️ Roadmap")
     st.write("Slotin is committed to continuous innovation and enhancing its features. Here's a look at our roadmap for the platform:")
@@ -209,134 +206,130 @@ Here's a revised version of the **Roadmap** and **Get Involved** sections for **
 def faqs():
     st.title("❓ FAQs")
 
-    st.subheader("Q1: How does Slotin ensure user privacy when booking appointments?
-🔐  Slotin prioritizes user privacy by implementing strict data protection measures.      Personal information is kept confidential and is only accessible to the relevant service providers. Users can book appointments without revealing their identity to the public, ensuring privacy while facilitating effective communication.")
+    st.subheader("Q1: How does Slotin ensure user privacy when booking appointments?")
+    st.write("🔐 Slotin prioritizes user privacy by implementing strict data protection measures. Personal information is kept confidential and is only accessible to the relevant service providers. Users can book appointments without revealing their identity to the public, ensuring privacy while facilitating effective communication.")
 
-    st.subheader("Q2: How does Slotin manage appointment scheduling effectively?
-🛡️ Slotin utilizes advanced algorithms to optimize appointment scheduling. The platform analyzes user preferences and availability, automatically suggesting the best times for both users and service providers, ensuring a smooth booking experience.")
+    st.subheader("Q2: How does Slotin manage appointment scheduling effectively?")
+    st.write("🛡️ Slotin utilizes advanced algorithms to optimize appointment scheduling. The platform analyzes user preferences and availability, automatically suggesting the best times for both users and service providers, ensuring a smooth booking experience.")
 
-    st.subheader("Q3: Which services are currently available on Slotin?
-🌍 Slotin currently partners with various service providers across healthcare, beauty, and wellness sectors. We continuously seek to expand our network, ensuring users have access to a wide range of appointment options.")
+    st.subheader("Q3: Which services are currently available on Slotin?")
+    st.write("🌍 Slotin currently partners with various service providers across healthcare, beauty, and wellness sectors. We continuously seek to expand our network, ensuring users have access to a wide range of appointment options.")
 
-    st.subheader("Q4:How does Slotin notify users of appointment confirmations or changes?
-🔔 Slotin features an integrated notification system that instantly alerts users via email and app notifications when appointments are confirmed, modified, or canceled. This ensures users are always informed and can plan accordingly.")
+    st.subheader("Q4: How does Slotin notify users of appointment confirmations or changes?")
+    st.write("🔔 Slotin features an integrated notification system that instantly alerts users via email and app notifications when appointments are confirmed, modified, or canceled. This ensures users are always informed and can plan accordingly.")
 
-    st.subheader("Q5: How does Slotin handle appointment cancellations or no-shows?
-🔄 Slotin has a flexible cancellation policy that allows users to reschedule or cancel appointments with ease. Service providers are notified in real-time, helping them manage their schedules efficiently and reduce no-show rates.")
+    st.subheader("Q5: How does Slotin handle appointment cancellations or no-shows?")
+    st.write("🔄 Slotin has a flexible cancellation policy that allows users to reschedule or cancel appointments with ease. Service providers are notified in real-time, helping them manage their schedules efficiently and reduce no-show rates.")
 
-    st.subheader("Q6:What makes Slotin different from other appointment booking platforms?
-✨ Slotin stands out due to its user-friendly interface, real-time scheduling optimization, and commitment to privacy. Unlike other platforms, we focus on providing personalized experiences while ensuring users’ data is secure.
-")
+    st.subheader("Q6: What makes Slotin different from other appointment booking platforms?")
+    st.write("✨ Slotin stands out due to its user-friendly interface, real-time scheduling optimization, and commitment to privacy. Unlike other platforms, we focus on providing personalized experiences while ensuring users’ data is secure.")
 
-    st.subheader("Q7: Can Slotin integrate with existing scheduling systems of service providers?
-🔗 Absolutely! Slotin is designed to integrate seamlessly with the scheduling systems of our service partners, enabling smooth operations and real-time updates for both users and providers, enhancing overall efficiency.")
+    st.subheader("Q7: Can Slotin integrate with existing scheduling systems of service providers?")
+    st.write("🔗 Absolutely! Slotin is designed to integrate seamlessly with the scheduling systems of our service partners, enabling smooth operations and real-time updates for both users and providers, enhancing overall efficiency.")
 
 def backend():
     st.title("🚀 Backend - Slotin")
 
-    st.image("Assets/Upload.jpg", caption="Upload Image", use_column_width=True)
+    #st.image("Assets/Upload.jpg", caption="Upload Image", use_column_width=True)
 
-    st.write("""
-        Slotin's backend is the backbone of our platform, powering the essential functionality that enables seamless appointment booking, user management, and real-time notifications. Designed to handle a variety of tasks, our backend processes user requests, manages data, and integrates with external services to enhance user experience.
+    st.write("""Slotin backend is the backbone of our platform, powering the essential functionality that enables seamless appointment booking, user management, and real-time notifications. Designed to handle a variety of tasks, our backend processes user requests, manages data, and integrates with external services to enhance user experience.
 
-        Here's an overview of the key components and features of Slotin's backend:
+    Here's an overview of the key components and features of Slotin backend:
     """)
 
-    st.image("Assets/Arch.jpg", caption="Backend Architecture Workflow", use_column_width=True)
+    #st.image("Assets/Arch.jpg", caption="Backend Architecture Workflow", use_column_width=True)
 
     st.subheader("🔧 Key Components of Slotin's Backend")
     st.write("""
     1. **WebSockets for Real-Time Communication:** Slotin's backend utilizes WebSockets to maintain a persistent connection between clients (mobile or web) and the server, enabling real-time updates for appointment bookings and notifications.
 
-2. **Redis Queue for Task Management:** When an appointment is booked or modified, the details are sent to a Redis queue. This ensures that all requests are efficiently managed and processed without any data loss.
+    2. **Redis Queue for Task Management:** When an appointment is booked or modified, the details are sent to a Redis queue. This ensures that all requests are efficiently managed and processed without any data loss.
 
-3. **Frontend and Backend Synchronization:** Changes in appointment status or new bookings are reflected in real time on both the backend and frontend, creating a smooth and responsive user experience.
+    3. **Frontend and Backend Synchronization:** Changes in appointment status or new bookings are reflected in real time on both the backend and frontend, creating a smooth and responsive user experience.
 
-4. **Redis Queue Policies:** The Redis queue implements policies to trigger further processing steps, ensuring that appointment data is handled in a timely manner.
+    4. **Redis Queue Policies:** The Redis queue implements policies to trigger further processing steps, ensuring that appointment data is handled in a timely manner.
 
-5. **Worker Processes for Data Handling:** Worker processes manage tasks such as sending confirmation emails, updating appointment statuses, and handling other asynchronous operations to enhance performance.
+    5. **Worker Processes for Data Handling:** Worker processes manage tasks such as sending confirmation emails, updating appointment statuses, and handling other asynchronous operations to enhance performance.
 
-6. **MongoDB for Data Storage:** All appointment data, user profiles, and booking histories are stored in MongoDB. Its flexible schema design allows for efficient storage and retrieval of user and appointment information.
+    6. **MongoDB for Data Storage:** All appointment data, user profiles, and booking histories are stored in MongoDB. Its flexible schema design allows for efficient storage and retrieval of user and appointment information.
 
-7. **End-to-End Real-Time System:** This backend architecture allows Slotin to efficiently manage appointment bookings and updates in real time, ensuring that users receive timely notifications and that all critical data is securely stored and processed.
-
+    7. **End-to-End Real-Time System:** This backend architecture allows Slotin to efficiently manage appointment bookings and updates in real time, ensuring that users receive timely notifications and that all critical data is securely stored and processed.
     """)
-
 
     st.subheader("🚀 Technologies Used in Slotin's Backend")
     st.write("""
     1. **TypeScript:** Slotin's backend is built with TypeScript, ensuring type safety and scalability, which helps maintain a clean and efficient codebase.
 
-2. **Redis:** Redis serves as a queue management system, ensuring that all appointment bookings, updates, and processing tasks are handled in an organized and reliable manner. It helps maintain smooth data flow and guarantees that no request is missed.
+    2. **Redis:** Redis serves as a queue management system, ensuring that all appointment bookings, updates, and processing tasks are handled in an organized and reliable manner. It helps maintain smooth data flow and guarantees that no request is missed.
 
-3. **MongoDB:** MongoDB is used as the primary database for storing appointment data, user profiles, and booking histories. Its flexible schema design allows for efficient storage and retrieval of diverse data types.
+    3. **MongoDB:** MongoDB is used as the primary database for storing appointment data, user profiles, and booking histories. Its flexible schema design allows for efficient storage and retrieval of diverse data types.
 
-4. **Express.js:** Slotin utilizes Express.js as the web framework to build robust and scalable server-side applications. It simplifies the routing and handling of requests.
+    4. **Express.js:** Slotin utilizes Express.js as the web framework to build robust and scalable server-side applications. It simplifies the routing and handling of requests.
 
-5. **WebSockets:** WebSockets provide a persistent connection between the client and server, enabling real-time data transfer, particularly for booking confirmations and notifications.
+    5. **WebSockets:** WebSockets provide a persistent connection between the client and server, enabling real-time data transfer, particularly for booking confirmations and notifications.
 
-6. **Docker:** Docker is employed for containerization, ensuring consistency in the backend environment across different systems and simplifying the deployment process.
+    6. **Docker:** Docker is employed for containerization, ensuring consistency in the backend environment across different systems and simplifying the deployment process.
 
-7. **Amazon EC2:** Amazon EC2 hosts Slotin’s backend, providing scalable and secure compute capacity to run our server and handle real-time booking data.
+    7. **Amazon EC2:** Amazon EC2 hosts Slotin’s backend, providing scalable and secure compute capacity to run our server and handle real-time booking data.
 
-8. **Amazon S3:** Amazon S3 is used for storing any uploaded files or documents related to appointments, ensuring secure and scalable storage with easy access when needed.
-
+    8. **Amazon S3:** Amazon S3 is used for storing any uploaded files or documents related to appointments, ensuring secure and scalable storage with easy access when needed.
     """)
 
 def revenue_model():
     st.title("💼 Revenue Model - Slotin")
     st.write("""
-        Slotin’s revenue model is crafted to capitalize on various streams while aligning with its mission to simplify appointment scheduling and enhance user experience. By collaborating with service providers and leveraging technology, Slotin aims to create sustainable revenue opportunities while delivering significant value to its users.
+    Slotin’s revenue model is crafted to capitalize on various streams while aligning with its mission to simplify appointment scheduling and enhance user experience. By collaborating with service providers and leveraging technology, Slotin aims to create sustainable revenue opportunities while delivering significant value to its users.
 
-        Here's a breakdown of the key revenue streams that Slotin employs:
+    Here's a breakdown of the key revenue streams that Slotin employs:
     """)
 
     st.subheader("🏛️ Government Partnerships")
     st.write("""
-        Slotin collaborates with local government entities, such as health departments and community organizations, to enhance public service delivery through efficient appointment scheduling. By integrating with government systems, Slotin helps streamline public health initiatives, vaccination drives, and community services.
+    Slotin collaborates with local government entities, such as health departments and community organizations, to enhance public service delivery through efficient appointment scheduling. By integrating with government systems, Slotin helps streamline public health initiatives, vaccination drives, and community services.
 
-**Monetization Strategy:** Governments can subscribe to Slotin’s platform for a fee, gaining access to scheduling tools and analytics that facilitate community engagement and resource allocation. These partnerships create stable revenue streams while improving service delivery in public health and safety.
+    **Monetization Strategy:** Governments can subscribe to Slotin’s platform for a fee, gaining access to scheduling tools and analytics that facilitate community engagement and resource allocation. These partnerships create stable revenue streams while improving service delivery in public health and safety.
     """)
 
     st.subheader("🚨 Premium Services for First Responders")
     st.write("""
-        Slotin offers premium services tailored for businesses that provide appointments, such as healthcare providers and beauty salons. These premium features include advanced analytics, priority booking options, and enhanced customer management tools that allow service providers to optimize their operations.
+    Slotin offers premium services tailored for businesses that provide appointments, such as healthcare providers and beauty salons. These premium features include advanced analytics, priority booking options, and enhanced customer management tools that allow service providers to optimize their operations.
 
-        **Monetization Strategy:** Service providers can subscribe to premium plans for a monthly or annual fee, unlocking advanced functionalities that improve booking efficiency and customer engagement. This creates added value for providers while generating consistent revenue for Slotin.
+    **Monetization Strategy:** Service providers can subscribe to premium plans for a monthly or annual fee, unlocking advanced functionalities that improve booking efficiency and customer engagement. This creates added value for providers while generating consistent revenue for Slotin.
     """)
 
     st.subheader("📊 Data Licensing")
     st.write("""
-        Slotin collects anonymized data from user interactions and appointment trends, which can be valuable to market researchers, healthcare organizations, and urban planners. This data can inform service improvements and community health initiatives.
+    Slotin collects anonymized data from user interactions and appointment trends, which can be valuable to market researchers, healthcare organizations, and urban planners. This data can inform service improvements and community health initiatives.
 
-        **Monetization Strategy:** Slotin can license this anonymized data to third-party organizations at a fixed price or subscription-based model. By providing insights into appointment patterns and user preferences, Slotin helps stakeholders make data-driven decisions.
+    **Monetization Strategy:** Slotin can license this anonymized data to third-party organizations at a fixed price or subscription-based model. By providing insights into appointment patterns and user preferences, Slotin helps stakeholders make data-driven decisions.
     """)
 
     st.subheader("📢 Advertisement Integration")
     st.write("""
-        Slotin’s platform serves as an effective venue for relevant advertisements from industries such as healthcare services, wellness products, and local businesses. These advertisements are integrated seamlessly into the user experience, ensuring they are helpful and contextually relevant.
+    Slotin’s platform serves as an effective venue for relevant advertisements from industries such as healthcare services, wellness products, and local businesses. These advertisements are integrated seamlessly into the user experience, ensuring they are helpful and contextually relevant.
 
-        Monetization Strategy: Advertisement slots within the app can be sold to businesses on a pay-per-click or pay-per-view basis, offering targeted exposure to users seeking related services. This ensures that ads are not only relevant but also beneficial to users, enhancing overall engagement
+    **Monetization Strategy:** Advertisement slots within the app can be sold to businesses on a pay-per-click or pay-per-view basis, offering targeted exposure to users seeking related services. This ensures that ads are not only relevant but also beneficial to users, enhancing overall engagement.
     """)
 
 def frontend():
     st.title("🚀 Frontend - Slotin")
 
-    st.image("Assets/Login.jpg", caption="Web Interface Login/Signup", use_column_width=True)
+    #st.image("Assets/Login.jpg", caption="Web Interface Login/Signup", use_column_width=True)
 
     st.write("""
-        Slotin’s frontend is designed to ensure a user-friendly experience across both our mobile application and web interface. Whether it’s booking appointments, tracking confirmations, or managing user preferences, the frontend is built with modern technologies to provide seamless interaction and real-time responsiveness for all users.
+    Slotin’s frontend is designed to ensure a user-friendly experience across both our mobile application and web interface. Whether it’s booking appointments, tracking confirmations, or managing user preferences, the frontend is built with modern technologies to provide seamless interaction and real-time responsiveness for all users.
 
-        Here's an overview of the key components and features of Slotin's frontend:
+    Here's an overview of the key components and features of Slotin's frontend:
     """)
 
-    st.image("Assets/Dashboard.jpg", caption="Web Interface Dashboard", use_column_width=True)
+    #st.image("Assets/Dashboard.jpg", caption="Web Interface Dashboard", use_column_width=True)
 
     st.subheader("🔧 Key Components of Slotin's Frontend")
     st.write("""
     1. **Mobile and Web Interface:** Slotin provides both a mobile application and a web interface, ensuring accessibility across various platforms. Users can book appointments and manage their schedules seamlessly, enjoying a consistent experience on both devices.
 
-    2. **Dynamic Appointment Feed:** The mobile app and web interface feature a dynamic feed displaying upcoming appointments and updates. Each entry includes details such as service type, provider, date, time, and any special notes, keeping users informed in real time.
+    2. **Dynamic Appointment Feed:** The mobile app and web interface feature a dynamic feed displaying upcoming appointments and updates. Each entry includes details such as service type, provider, date, time, and any special notes,
+
 
     3. **Real-Time Appointment Updates:** Users receive immediate updates about their appointments, including confirmations, changes, and reminders. This ensures that clients are always informed and can adjust their plans accordingly.
 
@@ -344,7 +337,7 @@ def frontend():
 
     """)
 
-    st.image("Assets/News1.jpg", caption="Web Interface Newsfeed", use_column_width=True)
+    #st.image("Assets/News1.jpg", caption="Web Interface Newsfeed", use_column_width=True)
 
     st.write("""         
     5. **Real-Time Notifications:** Every user receives real-time notifications regarding their appointments, including reminders and updates from service providers. This feature enhances communication and helps reduce no-shows.
@@ -357,7 +350,7 @@ def frontend():
 
     """)
 
-    st.image("Assets/Mob.jpg", caption="Mobile App Newsfeed", width=300, use_column_width=True)
+    #st.image("Assets/Mob.jpg", caption="Mobile App Newsfeed", width=300, use_column_width=True)
 
     st.subheader("🚀 Technologies Used in Slotin's Frontend")
     st.write("""
