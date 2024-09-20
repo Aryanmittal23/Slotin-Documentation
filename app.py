@@ -173,7 +173,7 @@ def competition_and_roadmap():
 
     #### **5. SimplyBook.me 🗓️**
     - **What They Do:** SimplyBook.me offers customizable booking solutions for businesses, with features like payment processing and reminders.
-    - **Edge Over Them:** While SimplyBook.me is highly customizable, Slotin focuses on delivering a simpler, user-friendly experience without overwhelming users with complex settings, making appointment booking quick and hassle-free.""")
+    - **Edge Over Them:** While SimplyBook.me is highly customizable, Slotin focuses on delivering a simpler, user-friendly experience without overwhelming users with complex settings, making appointment booking quick and hassle-free. """)
 
     st.subheader("🗺️ Roadmap")
     st.write("Slotin is committed to continuous innovation and enhancing its features. Here's a look at our roadmap for the platform:")
