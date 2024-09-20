@@ -155,13 +155,13 @@ def competition_and_roadmap():
     st.subheader("🤼 Competitors")
 
     st.markdown("""
-    #### **1. Calendly 📅**
+    #### **1. UrbanClap (now Urban Company) 🏠**
+    - **What They Do:** UrbanClap connects users with local service professionals for various services, including home maintenance, beauty, wellness, and more.
+    - **Edge Over Them:** While UrbanClap is more of a marketplace for finding service providers, Slotin focuses on streamlined, real-time appointment scheduling with a more seamless user experience. Slotin's specialization in booking optimization and notifications provides a smoother and more organized appointment booking flow for both users and service providers, rather than just connecting users to services.
+                
+    #### **2. Calendly 📅**
     - **What They Do:** Calendly allows users to create personalized scheduling links for meetings, simplifying the appointment booking process.
     - **Edge Over Them:** While Calendly focuses on meeting scheduling, Slotin offers a dedicated appointment booking experience tailored for specific services, with features like service categorization and customer management, making it more suited for businesses.
-
-    #### **2. Doodle 📊**
-    - **What They Do:** Doodle helps groups find suitable meeting times by allowing participants to vote on their availability.
-    - **Edge Over Them:** Doodle is great for group scheduling but lacks the comprehensive features for individual appointments that Slotin provides. Slotin’s interface is designed for seamless user interactions, offering a more efficient booking experience.
 
     #### **3. Acuity Scheduling ⏰**
     - **What They Do:** Acuity Scheduling offers robust features for managing appointments, including reminders and client self-scheduling.
